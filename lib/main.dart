@@ -25,7 +25,7 @@ class MyApplication extends StatelessWidget {
       debugShowCheckedModeBanner: false,
 
       // give it key of screen to start with it
-      initialRoute: HomeLayout.routeName,
+      initialRoute: SplashScreen.routeName,
       // map faster the array on search with key
       routes: {
         // call back function ( function in another place)

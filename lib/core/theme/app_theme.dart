@@ -20,23 +20,23 @@ class AppTheme {
       appBarTheme: AppBarTheme(
           iconTheme: IconThemeData(color: Colors.black),
           backgroundColor: Colors.transparent,
-          centerTitle: true,
+        //  centerTitle: true,
           elevation: 0,
           titleTextStyle: GoogleFonts.elMessiri(
               fontSize: 30, fontWeight: FontWeight.bold, color: Colors.black)),
       bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-        backgroundColor: Color(0xFFB7935F),
+        backgroundColor: Colors.white,
         type: BottomNavigationBarType.fixed,
         selectedIconTheme: IconThemeData(
-          color: Colors.black,
+          color: Color(0xFF027A48),
           size: 32,
         ),
-        selectedItemColor: Colors.black,
+        selectedItemColor: Color(0xFF027A48),
         unselectedIconTheme: IconThemeData(
-          color: Colors.white,
+          color: Colors.grey,
           size: 28,
         ),
-        unselectedItemColor: Colors.white,
+        unselectedItemColor: Colors.grey,
       ),
       textTheme: TextTheme(
           titleLarge: GoogleFonts.elMessiri(
@@ -45,51 +45,11 @@ class AppTheme {
               fontSize: 25, fontWeight: FontWeight.bold, color: Colors.black),
           bodyMedium: GoogleFonts.elMessiri(
               fontSize: 25, fontWeight: FontWeight.w500, color: Colors.black),
-          bodySmall: GoogleFonts.elMessiri(
+          bodySmall: GoogleFonts.milonga(
               fontSize: 18,
               fontWeight: FontWeight.normal,
-              color: Colors.black)));
-  static ThemeData darkTheme = ThemeData(
-      primaryColor: Color(0xFF141A2E),
-      colorScheme: ColorScheme.fromSeed(
-          primary: Color(0xFF141A2E),
-          onPrimary: Color(0xFFFACC1D),
-          seedColor: Color(0xFF141A2E),
-          secondary: Color(0xFFFACC1D),
-          onSecondary: Color(0xFFFACC1D),
-          onSurface: Colors.black),
-      scaffoldBackgroundColor: Colors.transparent,
-      appBarTheme: AppBarTheme(
-          iconTheme: IconThemeData(color: Colors.white),
-          backgroundColor: Colors.transparent,
-          centerTitle: true,
-          elevation: 0,
-          titleTextStyle: GoogleFonts.elMessiri(
-              fontSize: 30, fontWeight: FontWeight.bold, color: Colors.white)),
-      bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-        backgroundColor: Color(0xFF141A2E),
-        type: BottomNavigationBarType.fixed,
-        selectedIconTheme: IconThemeData(
-          color: Color(0xFFFACC1D),
-          size: 32,
-        ),
-        selectedItemColor: Color(0xFFFACC1D),
-        unselectedIconTheme: IconThemeData(
-          color: Colors.white,
-          size: 28,
-        ),
-        unselectedItemColor: Colors.white,
-      ),
-      textTheme: TextTheme(
-          titleLarge: GoogleFonts.elMessiri(
-              fontSize: 30, fontWeight: FontWeight.bold, color: Colors.white),
-          bodyLarge: GoogleFonts.elMessiri(
-              fontSize: 25, fontWeight: FontWeight.bold, color: Colors.white),
-          bodyMedium: GoogleFonts.elMessiri(
-              fontSize: 25, fontWeight: FontWeight.w500, color: Colors.white),
-          bodySmall: GoogleFonts.elMessiri(
-              fontSize: 18,
-              fontWeight: FontWeight.normal,
-              color: Colors.white)),
-      dividerColor: const Color(0xFFFACC1D));
+              color: Colors.black),
+
+      ));
+
 }

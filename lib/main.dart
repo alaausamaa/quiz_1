@@ -18,20 +18,20 @@ class MyApplication extends StatelessWidget {
     return MaterialApp(
     //  themeMode: provider.currenttheme,
       theme: AppTheme.lightTheme,
-      darkTheme: AppTheme.darkTheme,
+     // darkTheme: AppTheme.darkTheme,
      // localizationsDelegates: AppLocalizations.localizationsDelegates,
     //  supportedLocales: AppLocalizations.supportedLocales,
      // locale: Locale(provider.local),
       debugShowCheckedModeBanner: false,
+
       // give it key of screen to start with it
-      initialRoute: SplashScreen.routeName,
+      initialRoute: HomeLayout.routeName,
       // map faster the array on search with key
       routes: {
         // call back function ( function in another place)
         SplashScreen.routeName: (context) => const SplashScreen(),
         HomeLayout.routeName: (context) => HomeLayout(),
-      //  QuranDetails.routName: (context) => QuranDetails(),
-       // HadethDetails.routName: (context) => HadethDetails(),
+
       },
     );
   }

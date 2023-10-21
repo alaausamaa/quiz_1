@@ -20,7 +20,7 @@ class SplashScreen extends StatelessWidget {
 
     return Scaffold(
       body: Image.asset(
-        "assets/images/default_bg.png",
+        "assets/images/splash.gif",
         width: mediaQuery.width,
         height: mediaQuery.height,
         fit: BoxFit.cover,

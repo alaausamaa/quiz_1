@@ -46,8 +46,8 @@ class AppTheme {
           bodyMedium: GoogleFonts.elMessiri(
               fontSize: 25, fontWeight: FontWeight.w500, color: Colors.black),
           bodySmall: GoogleFonts.milonga(
-              fontSize: 18,
-              fontWeight: FontWeight.normal,
+              fontSize: 24,
+              fontWeight: FontWeight.w400,
               color: Colors.black),
 
       ));

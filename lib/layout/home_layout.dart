@@ -20,7 +20,7 @@ class _HomeLayoutState extends State<HomeLayout> {
   List<Widget> pages = [
     ScreenOne(),
     ScreenThree(),
-    ScreenTwo() ,
+    WorkOut() ,
   ];
   @override
   Widget build(BuildContext context) {

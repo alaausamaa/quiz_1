@@ -46,8 +46,9 @@ class ScreenThree extends StatelessWidget {
       )
       )),
             ) ,
-            Container(height: 400,
-            color: Colors.black,) ,
+            Container(height: 300,
+           // color: Colors.black,
+            ) ,
             SizedBox(height: 15,) ,
             Column(
               children: [
